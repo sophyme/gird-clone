@@ -83,13 +83,25 @@ img {
 }
 .showcase h1 {
   font-size: 4rem;
-  margin-bottom: 0;
+  margin-bottom: 12px;
   color: var(--light);
 }
 .showcase p {
   font-size: 1.3rem;
   margin-top: 0;
   color: var(--light);
+}
+/* Top box */
+.top-box {
+  background: var(--primary);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+}
+.top-box .price {
+  font-size: 2.5rem;
 }
 .top-box-a {
   grid-area: top-box-a;
