@@ -132,16 +132,16 @@ img {
 }
 
 /* Portfolio */
-.portfoilio {
+.portfolio {
   display: grid;
-  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1em;
 }
 .portfolio img {
   width: 100%;
+  height: auto;
   box-shadow: var(--shadow);
 }
-
 /* Media Queries */
 @media (max-width: 700px) {
   .top-container {
